@@ -1,61 +1,16 @@
 # Hey, I'm Mutasim
 
-**Solo developer building production systems with AI as my engineering team.**
+I build software that runs real businesses in Puerto Rico: pharmacy operations, field sales, and the AI tooling I use to ship it. I design the systems and decide what gets built; Claude Code writes most of the code; tests and CI decide what ships.
 
-I'm a computer engineer who treats AI tools as force multipliers, not crutches. I architect, design, and ship full-stack applications — from mobile apps to backend systems to AI orchestration frameworks — using Claude, Copilot, and other AI tools as my dev team.
+Most of this work is private because it runs those businesses. Here is what it is, with numbers you can hold me to.
 
-The result: one person shipping what would normally take a team of 10.
+| Project | What it does | Stack | Proof |
+|---|---|---|---|
+| **Business websites** | Public sites for [Farmacias Carimas](https://farmaciascarimas.com), [Droguería San Juan](https://dsjpr.com) and [Carthage Express](https://carthagexpress.com) | Next.js · Tailwind · HTML · Vercel | Live. Both pharmacy sites in Spanish and English. |
+| **Pharmacy Arc** | Multi-store pharmacy sales management: role-based access, audit logging, offline support | Python · Flask · Supabase · Railway | 282 unit tests run on every change. |
+| **DeltaO.ai** | My multi-agent orchestration framework: memory, agent coordination, monitoring | Python · Flask · Supabase | 1,500+ commits. Tests, type checks and deploys gated in CI. |
+| **Candy Sales Tracker** | Mobile app for field sales reps: routes, clients, offline-first data | TypeScript · React Native · Expo · SQLite | 580+ tests. |
+| **agent-watch** | A live pane for Claude Code that shows what every subagent is doing | TypeScript · Claude Code mods | 178 tests, run on Windows in CI. |
+| **My Day** | Tasks, habits and plan-tomorrow workflows | TypeScript · React · Supabase | Typecheck and build in CI. |
 
----
-
-### What I Build
-
-**[DeltaO.ai](https://github.com/mtsmyassin/AI_projects)** — AI orchestration framework with cognitive memory, multi-agent coordination, knowledge graphs, and 24/7 autonomous monitoring. The brain behind everything I build. `Python` `Flask` `Supabase` `OpenAI` `MCP`
-
-**[Pharmacy Arc](https://github.com/mtsmyassin/Card-Sales)** — Multi-store pharmacy sales management system with RBAC, audit logging, real-time analytics, and offline support. Production-deployed, 271 tests, security-hardened. `Python` `Flask` `Supabase` `Railway`
-
-**[Candy Sales Tracker](https://github.com/mtsmyassin/Candy-Sales)** — Mobile-first sales app with route optimization, client management, and offline-first SQLite. Built for field sales reps. `TypeScript` `React Native` `Expo` `SQLite`
-
-**[My Day](https://github.com/mtsmyassin/my-day)** — Personal productivity app with tasks, habits, streak tracking, and plan-tomorrow workflows. `TypeScript` `React` `Supabase` `Vite`
-
-**[DeltaO Dashboard](https://github.com/mtsmyassin/claudeos-dashboard)** — Real-time monitoring dashboard for DeltaO.ai with run history, health checks, spending analytics, and WebSocket streaming. `Python` `Flask` `Supabase`
-
-**[VIt.AI](https://github.com/mtsmyassin/VIt.AI)** — AI wellness companion for workout planning, food analysis, and health coaching powered by Gemini. `TypeScript` `React` `Express` `Gemini AI`
-
----
-
-### Tech Stack
-
-```
-Languages       Python  ·  TypeScript  ·  SQL
-Backend         Flask  ·  Express  ·  Supabase  ·  PostgreSQL
-Frontend        React  ·  React Native  ·  Expo  ·  Vite  ·  Tailwind CSS
-AI/ML           Claude API  ·  OpenAI  ·  Gemini  ·  MCP Protocol  ·  TF-IDF
-Infrastructure  Railway  ·  GitHub Actions  ·  CI/CD  ·  Docker
-Tools           Claude Code  ·  GitHub Copilot  ·  Playwright  ·  Ruff
-```
-
----
-
-### How I Work: AI-Assisted Development
-
-I don't hide the fact that AI is central to my workflow. Here's why that's a strength, not a shortcut:
-
-- **I'm the architect.** Every system design, every product decision, every trade-off comes from me. AI doesn't decide what to build — I do.
-- **AI is the engineering team.** Claude writes code under my direction. Copilot handles boilerplate. I review everything, catch the gaps, and maintain quality standards.
-- **The results speak.** 550+ commits on DeltaO.ai. 271 tests on Pharmacy Arc. Security audits. CI/CD pipelines. Real users, real deployments.
-- **This is the future of development.** Solo developers who learn to orchestrate AI tools effectively will outpace teams that don't. I'm building that muscle now.
-
-I wrote about this approach because transparency matters. If you're evaluating my work, judge it by the systems I've shipped, the problems I've solved, and the quality of what's running in production — not by whether a human or an AI typed each line.
-
----
-
-### Current Focus
-
-Building **DeltaO.ai** into a SaaS product — multi-tenancy, billing, auth, and a self-service platform for AI-augmented development teams.
-
----
-
-<p align="center">
-  <i>One person. AI-powered. Shipping like a team.</i>
-</p>
+**Stack I reach for:** Python, TypeScript, SQL · Flask, Express, Supabase/PostgreSQL · React, React Native, Expo, Next.js, Tailwind · Railway, Vercel, GitHub Actions · Claude Code, Playwright, Ruff
